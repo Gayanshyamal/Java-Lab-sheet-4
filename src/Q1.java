@@ -9,7 +9,8 @@ public class Q1 {
 
         Temperature temp = new Temperature();
 
-        System.out.println(temp.setFahrenheit(c));
+        temp.setFahrenheit(c);
+        System.out.println(temp.getFahrenheit());
 
     }
 }

@@ -17,13 +17,11 @@ public class Temperature {
         return fahrenheit;
     };
 
-    public double setCelsius(double fahrenheit) {
+    public void setCelsius(double fahrenheit) {
         Temperature.celsius = (fahrenheit - 32)* 5/9;
-        return celsius;
     }
 
-    public double setFahrenheit(double celsius) {
+    public void setFahrenheit(double celsius) {
         Temperature.fahrenheit = celsius * 9/5 + 32;
-        return fahrenheit;
     }
 }

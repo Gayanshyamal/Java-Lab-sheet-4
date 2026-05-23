@@ -9,6 +9,7 @@ public class Q2 {
         System.out.println("Enter temperature in Fahrenheit:");
         double f = scanner.nextDouble();
 
-        System.out.println(temp.setCelsius(f));
+        temp.setCelsius(f);
+        System.out.println(temp.getCelsius());
     }
 }
